@@ -1,7 +1,4 @@
-/*body {
-	background-image: URL("./assets/tree_bark.png");
-}
-*/
+
 .namehead {
 	text-align: center;
 	background-color: #18453B;
@@ -77,9 +74,8 @@ padding-right: 5%;
 
 .connectlink{
 	width: 50px;
-	padding: 3px 3px 3px 3px ;
+	padding: 5px 5px 5px 5px ;
 	display: inline-block;
-	position: relative;
 }
 
 .withme{
@@ -170,4 +166,28 @@ footer {
   background: #666;
   border-top: 8px solid #18453B;
   bottom: 0;
+}
+
+@media (max-width: 980px){
+	.main-container { 
+	clear: both; }
+}
+
+@media (max-width: 768px){
+	.main-container {
+		clear: both;
+	}
+		.aboutme {
+		clear: both;
+	}
+	.connect {
+			clear: both;
+			float: center;
+}
+
+@media (max-width: 640px){
+	.main-container {
+		clear: both;}
+
+	}
 }
